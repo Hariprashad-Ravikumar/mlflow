@@ -9015,6 +9015,10 @@
     "defaultMessage": "This trace is very large, and may cause UI slowness when attempting to render. You can click the button below to attempt to display it anyway.",
     "description": "Body text explaining issues with rendering large traces."
   },
+  "Tyh+hX": {
+    "defaultMessage": "This experiment's issue detection settings could not be read, so this run will use the defaults: all focus areas and no saved priorities.",
+    "description": "Warning in the issue detection modal shown when the saved detection settings could not be loaded"
+  },
   "U+0wfV": {
     "defaultMessage": "Trace name",
     "description": "Column selector label for the trace-name column"
