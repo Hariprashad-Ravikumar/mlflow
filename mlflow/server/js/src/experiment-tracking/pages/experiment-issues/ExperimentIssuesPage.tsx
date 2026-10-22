@@ -401,7 +401,6 @@ const ExperimentIssuesContent = ({ experimentId }: { experimentId: string }) => 
       ) : isEmptyState ? (
         <CenteredState>
           <ExperimentIssuesEmptyState
-            experimentId={experimentId}
             hasCompletedDetectionRuns={detection.status === JobStatus.SUCCEEDED}
             isCleanScan={cleanScan}
             hasTimedOutDetectionRun={detection.status === JobStatus.TIMEOUT}
